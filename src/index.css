@@ -2125,13 +2125,13 @@ body.slide .oliven-nav-toggle {
 }
 
 .colors-title {
-    font-family: 'Miama Nueva';
+    font-family: 'MiamaNueva';
     font-size: 38px;
     margin-bottom: 40px;
 }
 
 .colors-text {
-    font-family: 'Miama Nueva';
+    font-family: 'MiamaNueva';
     font-size: 25px;
     text-transform: none;
     margin-bottom: 25px;
@@ -2171,6 +2171,12 @@ body.slide .oliven-nav-toggle {
         padding: 0 0 60px 0;
         margin: 0;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .oliven-title-meta {
+        font-size: 21px;
     }
 }
 
