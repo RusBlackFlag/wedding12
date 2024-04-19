@@ -11,9 +11,9 @@ function RSVP() {
         <div className='row justify-content-center'>
           <div className='col-md-6 bg-white p-40'>
             {' '}
-            <span className='oliven-title-meta text-center'>Вы будете присутствовать?</span>
+            <span className='oliven-title-meta text-center rsvp'>Вы будете присутствовать?</span>
             {/* <br /> */}
-            <h2 className='oliven-title text-center'>Ваш ответ</h2>
+            <h2 className='oliven-title text-center rsvp2'>Ваш ответ</h2>
             <br />
             <form action="https://formspree.io/f/xvoekjgz" method='POST' className='row'>
               <div className='col-md-12'>

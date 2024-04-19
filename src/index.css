@@ -2126,7 +2126,7 @@ body.slide .oliven-nav-toggle {
 
 .colors-title {
     font-family: 'MiamaNueva';
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -2135,7 +2135,7 @@ body.slide .oliven-nav-toggle {
     font-size: 25px;
     text-transform: none;
     margin-bottom: 25px;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 .color-circles {
@@ -2175,7 +2175,11 @@ body.slide .oliven-nav-toggle {
 }
 
 @media screen and (max-width: 450px) {
-    .oliven-title-meta {
+    .oliven-title-meta.rsvp {
+        font-size: 22px;
+    }
+
+    .oliven-title.rsvp2 {
         font-size: 21px;
     }
 }
