@@ -906,6 +906,12 @@ body.slide .oliven-nav-toggle {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .header.parallaxie {
+        background-image: url(./assets/images/main1.jpg);
+    }
+}
 /* bounce */
 .header .arrow {
     position: relative;
@@ -1305,6 +1311,14 @@ body.slide .oliven-nav-toggle {
       color: #fff; 
 }
 
+
+@media screen and (max-width: 1300px) {
+    .organization .bord-box {
+        overflow: hidden;
+        background-image: url(./assets/images/main1.jpg);
+        background-position: center center;
+      }
+}
 
 /* ======= See You style ======= */
 .seeyou {
