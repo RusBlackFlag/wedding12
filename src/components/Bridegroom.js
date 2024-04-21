@@ -22,9 +22,7 @@ function Bridegroom () {
                   </h6>{' '}
                   <span>Невеста</span>
                   <p>
-                    Olivia fringilla dui at elit finibus viverra nec a lacus
-                    seda themo the miss druane semper sollicitudin non the
-                    fermen.
+                  Как только наши взгляды пересеклись, я почувствовала, что нашла свое истинное счастье.
                   </p>
                 </div>
               </div>
@@ -46,9 +44,7 @@ function Bridegroom () {
                   </h6>{' '}
                   <span>Жених</span>
                   <p>
-                    Enrico fringilla dui at elit finibus viverra nec a lacus
-                    seda themo the miss druane semper sollicitudin non the
-                    fermen.
+                  Как только наши пути пересеклись, я понял, что моя жизнь не будет такой же без тебя.
                   </p>
                 </div>
               </div>

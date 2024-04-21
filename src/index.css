@@ -977,6 +977,11 @@ body.slide .oliven-nav-toggle {
     margin-bottom: 10px;
     padding-bottom: 15px;
 }
+
+.invite-p {
+    font-size: 18px;
+}
+
 .oliven-couple-title {
      display: block;
     position: relative;
@@ -1160,6 +1165,11 @@ body.slide .oliven-nav-toggle {
 
 
 /* ======= Our Story style ======= */
+.story.section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .story .story-img {
     position: relative;
 }

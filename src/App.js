@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Bridegroom />
         <Countdown />
-        {/* <Story /> */}
+        <Story />
         <Organization />
         {/* <Gallery /> */}
         {/* <Where /> */}
