@@ -202,6 +202,8 @@ button {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
     border-radius: 0px !important;
 }
 input[type="submit"]:hover,
