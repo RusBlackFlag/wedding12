@@ -333,6 +333,7 @@ input[type=radio]:checked:before {
 }
 
 .form-control {
+    box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -2038,13 +2039,14 @@ body.slide .oliven-nav-toggle {
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
-    max-width: 300px;
+    max-width: 320px;
     width: 100%;
     border-radius: 8px;
     cursor: pointer;
     background-color: #f0f0f0;
     margin-bottom: 15px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .select-btn .btn-text {
