@@ -1101,6 +1101,7 @@ body.slide .oliven-nav-toggle {
 
 /* ======= Wedding Countdown style ======= */
 #countdown {
+    -webkit-appearance: none;
     text-align: center;
     background-image: url(./assets/images/banner-1.jpg);
 }
