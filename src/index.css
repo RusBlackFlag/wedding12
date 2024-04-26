@@ -1103,6 +1103,9 @@ body.slide .oliven-nav-toggle {
 #countdown {
     text-align: center;
     background-image: url(./assets/images/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #countdown .section-head {
     margin-bottom: 15px;
