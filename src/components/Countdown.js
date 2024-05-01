@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react'
-import backgroundImage from '../assets/images/banner-3.jpg'; // импортируйте изображение
 
 function Countdown () {
   useEffect(() => {
-    // // Проверка на устройствах iOS
-    // const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) &&
-    //               !window.MSStream; // Дополнительная проверка для исключения браузера IE на Windows
+    // Проверка на устройствах iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+                  !window.MSStream; // Дополнительная проверка для исключения браузера IE на Windows
 
-    // // Динамическая установка background-attachment в зависимости от устройства
-    // if (isIOS) {
-    //   document.getElementById('countdown').style.backgroundAttachment = 'scroll';
-    // }
+    // Динамическая установка background-attachment в зависимости от устройства
+    if (isIOS) {
+      document.getElementById('countdown').style.backgroundAttachment = 'scroll';
+    }
 
     (function () {
       const second = 1000,
@@ -44,21 +43,13 @@ function Countdown () {
           }, 0);
           return null;
       }());
-
-      window.addEventListener('scroll', () => {
-        const yOffset = -window.pageYOffset;
-        document.getElementById('bg-image').style.transform = `translateY(${yOffset}px)`;
-      });
-  
-      return () => {
-        // Очистка события после размонтирования компонента
-        window.removeEventListener('scroll');
-      };
   }, [])
   return (
-    <div id='countdown' className='section-padding'>
-      <img id='bg-image' src={backgroundImage} alt='Background' />
-      {/* bg-img bg-fixed */}
+    <div
+      id='countdown'
+      className='section-padding bg-img bg-fixed'
+      data-background='images/banner-3.jpg'
+    >
       <div className='container'>
         <div className='row'>
           <div className='section-head col-md-12'>
