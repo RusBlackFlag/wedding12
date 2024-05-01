@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import backgroundImage from './assets/images/banner-3.jpg'; // импортируйте изображение
+import backgroundImage from '../assets/images/banner-3.jpg'; // импортируйте изображение
 
 function Countdown () {
   useEffect(() => {
