@@ -2,6 +2,15 @@ import React, { useEffect } from 'react'
 
 function Countdown () {
   useEffect(() => {
+    // Проверка на устройствах iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+                  !window.MSStream; // Дополнительная проверка для исключения браузера IE на Windows
+
+    // Динамическая установка background-attachment в зависимости от устройства
+    if (isIOS) {
+      document.getElementById('countdown').style.backgroundAttachment = 'scroll';
+    }
+
     (function () {
       const second = 1000,
             minute = second * 60,
